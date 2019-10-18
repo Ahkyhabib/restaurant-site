@@ -1,0 +1,28 @@
+.hero {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(
+      135deg,
+      rgba(2, 1, 5, 0.9) 0%,
+      rgba(60, 59, 63, 0.2) 100%
+    ),
+    url("../images/storefront.jpeg") bottom no-repeat fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}

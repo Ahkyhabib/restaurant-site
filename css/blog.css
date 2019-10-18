@@ -1,0 +1,47 @@
+.hero {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(
+      135deg,
+      rgba(2, 1, 5, 0.9) 0%,
+      rgba(60, 59, 63, 0.2) 100%
+    ),
+    url("../images/wine.jpeg") bottom no-repeat fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.star-gazing {
+  background: url("../images/blog-item3.jpeg") center no-repeat;
+}
+
+.hiking {
+  background: url("../images/blog-item4.jpeg") center no-repeat;
+}
+
+.camping {
+  background: url("../images/blog-item5.jpeg") center no-repeat;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.star-gazing:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  display: url("../images/pizza-chef.jpeg");
+}
+
+.hiking:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.camping:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
